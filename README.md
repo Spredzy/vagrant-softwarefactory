@@ -23,12 +23,4 @@ This was for the technical details. But to get the module simply `./run.sh` and 
 
 ## Now what ?
 
-Create a folder somewhere (ie. `/tmp/softwarefactory`) and copy the content of this git repo there. (`manifests/`, `modules/`, `Vagrantfile`).
-Simply run `vagrant up` and enjoy
-
-### Note
-
-Currently I faced an issue trying to use `config.vm.network "private_netowrk", type: "dhcp"` so I had to specify a static IP address.
-Please either user `type: dhcp` if it works for you, or adapt the ip address to be on the VirtualBox proper network.
-
-
+Create a folder somewhere (ie. `/tmp/softwarefactory`) and clone this repo. Then simply run (adapt it to your needs) `./run.sh` and you're ready to use `vagrant up`.
